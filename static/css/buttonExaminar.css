@@ -1,0 +1,50 @@
+.inputfile {
+ width: 0.1px;
+ height: 0.1px;
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+}
+
+.inputfile + label {  
+    width: 100%;
+    font-size: 0.8rem;
+    border-radius: 10rem; 
+    padding: 0.375rem 0.75rem;
+    display:block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.inputfile-1 + label {
+    	color: #3a3b45;
+  background-color: #f8f9fc;
+  border-color: #f8f9fc;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+  color: #3a3b45;
+  background-color: #dde2f1;
+  border-color: #d4daed;
+}
+
+.iborrainputfile {
+	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	line-height: inherit;
+}
